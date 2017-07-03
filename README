@@ -1,0 +1,17 @@
+Owner of artifact grants ACM permission to serve the artifact to users of the ACM Digital Library.
+
+This archive contains the source code of the paper "UpBit: Scalable In-Memory Updatable Bitmap Indexing", by Manos Athanassoulis, Zheng Yan, and Stratos Idreos. Proceedings of the ACM SIGMOD 2016 International Conference on Management of Data. [http://dl.acm.org/citation.cfm?doid=2882903.2915964]
+
+The source code is ruled be a license available in "license.txt".
+The implementatino was based on the implementation of FastBit and the corresponding files used for the bitvector implementation are distributed with the original FastBit author license.
+
+The code associated with our paper is in the src folder. 
+You can use 
+$ ./build.sh 
+to compile it.
+
+The experiments of the paper can be reproduced using the run.py script. For that to work python is required. Also the script needs to be edited to have the correct path at the top. By giving:
+$ python run.py 
+the (lengthy) reproduction of the results of the paper will start taking place. This will need a few days so it is better to execute only the experiments that are of most interest each time.
+
+Berkeley Earth data can be downloaded from http://berkeleyearth.lbl.gov/auto/Global/Gridded/Land_and_Ocean_EqualArea.nc.
